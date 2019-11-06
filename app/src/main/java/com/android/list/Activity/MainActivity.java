@@ -5,18 +5,15 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import android.app.ActionBar;
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Window;
 import android.widget.Toast;
 
-import com.android.Utilities.ConnectionDetector;
-import com.android.Utilities.EndUrl;
-import com.android.Utilities.JSONParser;
+import com.android.list.Utilities.ConnectionDetector;
+import com.android.list.Utilities.EndUrl;
+import com.android.list.Utilities.JSONParser;
 import com.android.list.Adapter.Adapter_List;
 import com.android.list.Pojo.Pojo_List;
 import com.android.list.R;
